@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Traduzida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            padding: 20px;
+            color: #333;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #2c3e50;
+            font-weight: bold;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        .carta, .form-feedback, .form-reclamacoes {
+            border: 2px solid #ddd;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        button {
+            background-color: #e74c3c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #c0392b;
+        }
+        .frase-ironica {
+            font-size: 18px;
+            color: #8e44ad;
+            font-style: italic;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tradução da Carta</h1>
+    <div class="carta">
+        <p>É, Ana, parece que o Forrest estava certo. Talvez a vida seja um pouco dos dois, estamos flutuando sobre o destino. E então, um dia, alguém entra na sua vida, um estranho, e se torna muito importante para você. E embora você a conheça há pouco tempo, você se sente como se a amasse há anos.</p>
+        <p>E, de repente, você se vê rindo todo dia ao lado dessa pessoa. Vê horas se tornarem minutos, meses se tornarem dias. Um misto de ansiedade para voltar para casa, mas, ao mesmo tempo, uma aflição pelas saudades que sentirá. Sua rotina não é mais a mesma, agora há novos sonhos, sentimentos e detalhes. Esses que vão desde fotografia até aviões e, claro, o laboratório.</p>
+        <p>Eu vejo sua forma de capturar o mundo, de eternizar o que talvez passe despercebido por outros. No laboratório, ao seu lado, cada experimento ou dia, por mais cansativo que seja, sempre (ou quase sempre) termina em risadas. E sobre os aviões... Eu adoro te ouvir falar sobre eles, quase como se cada um representasse uma possibilidade de ir além, de explorar o desconhecido. É como se, com cada detalhe que você compartilha, eu também pudesse voar ao seu lado.</p>
+        <p>Como te explicar, Ana? Como explicar teu sorriso, sua facilidade em me fazer rir e esquecer tudo ao meu redor? Como não sentirei falta das estórias de faculdade? Das histórias de criança, da sua mãe, da Hamburgueria mais tranquila de São Carlos. Quando eu ficar velhinho, no alto dos meus 45 anos, será que ainda terei você para me contar isso?</p>
+        <p>Sou muito grato por te ter próximo a mim, por poder conversar, compartilhar sentimento e saber que, mesmo há 2700 km de casa, tenho com quem contar. Que, a cada dia que passe, você possa se olhar e ver o quão incrível é, o quão cuida e pensa nos outros, por isso também merece cuidado, atenção e carinho. E isso nunca vai lhe faltar. Feliz aniversário, meu bem!!</p>
+        <p>Com carinho,</p>
+        <p>Zezé</p>
+    </div>
+
+    <h2>Marque os problemas dessa carta:</h2>
+    <form class="form-feedback">
+        <label>
+            <input type="checkbox" name="problemas" value="letra-feia"> Letra muito feia
+        </label>
+        <label>
+            <input type="checkbox" name="problemas" value="caneta-vermelha"> Caneta vermelha
+        </label>
+        <label>
+            <input type="checkbox" name="problemas" value="falta-d"> Falta de algumas letras
+        </label>
+        <label>
+            <input type="checkbox" name="problemas" value="falta-d"> Pouca poesia
+        </label>
+        <label>
+            <input type="checkbox" name="problemas" value="nenhum"> Nenhum problema, a carta está razoável!
+        </label>
+        <button type="submit">Enviar Feedback</button>
+    </form>
+
+    <div class="frase-ironica">
+        Hoje, <em>apenas</em> porque é seu aniversário, vou deixar você dar feedbacks 😏
+    </div>
+
+    <h2>Reclamações sobre o companheiro de laboratório:</h2>
+    <form class="form-reclamacoes">
+        <label>
+            <input type="checkbox" name="reclamacoes" value="fala-ri-demais"> Fala/ri demais em locais sérios
+        </label>
+        <label>
+            <input type="checkbox" name="reclamacoes" value="chega-atrasado"> Chega atrasado
+        </label>
+        <label>
+            <input type="checkbox" name="reclamacoes" value="chora-demais"> Chora demais
+        </label>
+        <label>
+            <input type="checkbox" name="reclamacoes" value="lento"> É muito lento
+        </label>
+        <button type="submit">Enviar Reclamação</button>
+    </form>
+
+    <script>
+        const feedbackForm = document.querySelector('.form-feedback');
+        const reclamacoesForm = document.querySelector('.form-reclamacoes');
+
+        feedbackForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Obrigado pelo feedback sobre a carta! 😄');
+        });
+
+        reclamacoesForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Obrigado pela sua reclamação! Vou tentar melhorar ');
+        });
+    </script>
+</body>
+</html>

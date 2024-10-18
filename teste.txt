@@ -1,0 +1,10 @@
+ <h1>Tradução da Carta</h1>
+    <div class="carta">
+        <p>É, Ana, parece que o Forrest estava certo. Talvez a vida seja um pouco dos dois, estamos flutuando sobre o destino. E então, um dia, alguém entra na sua vida, um estranho, e se torna muito importante para você. E embora você a conheça há pouco tempo, você se sente como se a amasse há anos.</p>
+        <p>E, de repente, você se vê rindo todo dia ao lado dessa pessoa. Vê horas se tornarem minutos, meses se tornarem dias. Um misto de ansiedade para voltar para casa, mas, ao mesmo tempo, uma aflição pelas saudades que sentirá. Sua rotina não é mais a mesma, agora há novos sonhos, sentimentos e detalhes. Esses que vão desde fotografia até aviões e, claro, o laboratório.</p>
+        <p>Eu vejo sua forma de capturar o mundo, de eternizar o que talvez passe despercebido por outros. No laboratório, ao seu lado, cada experimento ou dia, por mais cansativo que seja, sempre (ou quase sempre) termina em risadas. E sobre os aviões... Eu adoro te ouvir falar sobre eles, quase como se cada um representasse uma possibilidade de ir além, de explorar o desconhecido. É como se, com cada detalhe que você compartilha, eu também pudesse voar ao seu lado.</p>
+        <p>Como te explicar, Ana? Como explicar teu sorriso, sua facilidade em me fazer rir e esquecer tudo ao meu redor? Como não sentirei falta das estórias de faculdade? Das histórias de criança, da sua mãe, da Hamburgueria mais tranquila de São Carlos. Quando eu ficar velhinho, no alto dos meus 45 anos, será que ainda terei você para me contar isso?</p>
+        <p>Sou muito grato por te ter próximo a mim, por poder conversar, compartilhar sentimento e saber que, mesmo há 2700 km de casa, tenho com quem contar. Que, a cada dia que passe, você possa se olhar e ver o quão incrível é, o quão cuida e pensa nos outros, por isso também merece cuidado, atenção e carinho. E isso nunca vai lhe faltar. Feliz aniversário, meu bem!!</p>
+        <p>Com carinho,</p>
+        <p>Zezé</p>
+    </div>
